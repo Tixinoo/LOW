@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css" >
+	<title>Law of Wit - Site Officiel</title>
+	<meta charset="utf-8" >
+	<meta name="description" content="Bienvenue sur le site officiel de Law of Wit">
+	<link rel="icon" type="image/png" href="http://lawofwit.com/favicon.png" >
+	<link href='http://fonts.googleapis.com/css?family=Marcellus+SC' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+	<!--Scripts Random-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+		<!--Retour en haut-->
+		<script>
+			$(document).ready(function(){
+			// Cacher #retour-haut
+			$("#back-top").hide();
+			// Afficher #retour-haut
+			$(function () {
+				$(window).scroll(function () {
+					if ($(this).scrollTop() > 100) {
+						$('#back-top').fadeIn();
+					} else {
+						$('#back-top').fadeOut();
+					}
+				});
+				// Scroll en haut quand clicouille
+					$('#back-top a').click(function () {
+						$('body,html').animate({
+							scrollTop: 0
+						}, 800);
+						return false;
+					});
+				});
+			});
+		</script>
+		<!--Retro compatibilité transition-->
+		<script>		 
+			// cacher 
+			$("#jquery li").each(function() {
+			   $("a strong", this).css("opacity", "0");
+			});
+			$("#jquery li").hover(function() { // hover
+			   $(this)
+				  .stop().fadeTo(500, 1)
+				  .siblings().stop().fadeTo(500, 0.2);
+			   $("a strong", this)
+				  .stop()
+				  .animate({
+					 opacity: 1,
+					 top: "-10px"
+				  }, 300);
+			}, function() { // out
+			   $(this)
+				  .stop().fadeTo(500, 1)
+				  .siblings().stop().fadeTo(500, 1); 
+			   $("a strong", this)
+				  .stop()
+				  .animate({
+					 opacity: 0,
+					 top: "-1px"
+				  }, 300);
+			});
+		</script>
+	
+	<!--Google Analytics-->
+	<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-38804315-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+	</script>
+	
+</head>
+
+
+<body>
+	<div id="wrapper">
+		
+		<!--Retour Haut-->
+		<p id="retour-haut" class="fade-in four">
+			<a href="#top"><span></span>Retour en haut</a>
+		</p>
+	
+		<!--En-tête, logo+nom-->
+		<header>
+			<div><img class="scale fade-in zero" src="images/logo4BIG3pt.png"><br></div>
+			<div id="head1" class="fade-in zero">Law of Wit</div>
+			<center><p id="head2" class="fade-in zero">Groupe de Pop/Rock Lorrain</p></center>
+			<hr class="scale fade-in zero">
+		</header>
+
+
+		<!--Sommaire tout simple-->
+		<div id="menu" class="fade-in one">
+			<nav>
+				<ul>
+					<li><a href="#reseaux">Réseaux Sociaux</a></li>
+					<li><a href="#bio">Bio</a></li>
+					<li><a href="#son">Notre musique</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<!--Petite Bio (texte ou image avec texte)-->
+		<div id="bio" class="fade-in three">
+			<a name=bio><h2>BIO<hr class="fade-in three"></h2></a>
+				<p>« <b>Law of Wit</b> est un groupe de <b>pop/rock</b>, mais aussi influencé par d'autres styles musicaux (funk, jazz, blues, hard rock, …). Originaire de <b>Metz/Thionville</b> (Lorraine, Moselle), le groupe est au complet en juin 2012. Composé de musiciens tous plus <b>motivés</b> les uns que les autres, il diffuse sa <b>musique</b> afin de partager au mieux le <b>grand plaisir</b> qu'il a eu en la <b>composant</b>. »<br>
+Ah, et au fait ! <b>Law of Wit</b>, c'est <b>Maud Cappelletti</b> au chant, <b>Benjamin Husson</b> à la basse, <b>Antoine Nosal</b> à la batterie et <b>Olivier Donner</b> à la guitare et au chant !<br>
+		</div>
+
+		<!--Partie réseaux sociaux-->
+		<div id="socialmenu" class="fade-in two">
+			<a name=reseau><h2>RESEAUX SOCIAUX</h2><hr></a>
+				<ul class="social">
+					<li class="facebook">
+						<a href="https://www.facebook.com/lawofwit/" target="_blank">
+							<strong>Facebook</strong>
+						</a>
+					</li>
+					<li class="twitter">
+						<a href="https://twitter.com/LawofWit" target="_blank">
+							<strong>Twitter</strong>
+						</a>
+					</li>
+					<li class="google" >
+						<a href="https://plus.google.com/u/0/b/116555288696865822019/116555288696865822019" target="_blank">
+							<strong>Google+</strong>
+						</a>
+					</li>
+					<li class="soundcloud">
+						<a href="http://soundcloud.com/lawofwit" target="_blank">
+							<strong>SoundCloud</strong>
+						</a>
+					</li>
+					<li class="myspace">
+						<a href="https://myspace.com/lawofwit/music/albums" target="_blank">
+							<strong>MySpace</strong>
+						</a>
+					</li>
+					<li class="youtube">
+						<a href="http://www.youtube.com/user/LawofWit" target="_blank">
+							<strong>YT</strong>
+						</a>
+					</li>
+				</ul>
+		</div>
+	
+	
+		<!--Espace news & concerts-->
+		<div id="concertsnews" class="fade-in two">
+			<h2>NEWS & CONCERTS</h2>
+			<div class="news">
+				<p>Pour cette nouvelle année, les <b>Law of Wit</b> ont plein de belles choses à vous offrir !
+				<ul>
+					<li>Un <a href="#son"><b>nouvel EP</b></a> baptisé "<b>Stay With Me</b>" ! Pour l'écouter, le télécharger gratuitement ou à prix libre, c'est juste un peu plus bas ;).</li>
+					<li>Une page <a href="http://www.myspace.com/lawofwit" target="_blank"><b>MySpace</b></a> toute belle pour les habitués !</li>
+					<li>Des playlists <a href="https://soundcloud.com/lawofwit" target="_blank"><b>SoundCloud</b></a> qui correspondent à nos deux EPs !</li>
+					<li>Des nouvelles <b>photos</b> de notre passage en studio !</li>
+					<li>Toujours autant de <b>motivation</b> et une folle envie de vous retrouver en concert. Ne vous inquiétez pas, ça ne va vraiment plus tarder !</li>
+				</ul>
+				<hr>
+				<script type="text/javascript" src="http://www.bandsintown.com/javascripts/bit_widget.js"></script>
+				<a href="http://www.bandsintown.com" class="bit-widget-initializer" data-artist="Law of Wit" data-link-color="#D56E02">Bandsintown</a>			
+			</div>
+		</div>
+	
+<script>
+function ouvreFenetre(lien1, lien2) {
+    window.open(lien1);
+    window.open(lien2);
+}
+</script>
+		<div id="wrapper2">
+		
+			<!--<hr class="fade-in three">-->
+			<!--Let the music play-->
+			<div class="fade-in four">
+				<!--<a name=son><h2>NOTRE MUSIQUE</h2></a>-->
+				<a name=son><h2>NOTRE MUSIQUE</h2></a><hr>
+				<h2>Notre dernier EP "Stay With Me" :</h2>				
+				<div class="soundcloud2">
+				<table>
+					<tr>
+						<th colspan="2">
+							<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/19853551%3Fsecret_token%3Ds-XT5Vl&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe><br>
+						</th>
+					</tr>
+					<tr>
+						<th>Télécharger<br><a href="EP/Law-of-Wit_Stay-With-Me.zip" target="_blank"><img src="/images/EP_StayWithMe.png" width="200px"></img></a><br>Cliquez pour télécharger gratuitement l'EP (format mp3)</th>
+						<th>Contribuer<br>
+<script type="text/javascript">
+function ouvreFenetre(lien1,lien2) {
+    window.open(lien1);
+    window.open(lien2);
+}
+</script>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=4LA9C7F94NTZ2&lc=FR&item_name=Law%20of%20Wit&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted" target="_blank" onclick="ouvreFenetre('https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=4LA9C7F94NTZ2&lc=FR&item_name=Law%20of%20Wit&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted','EP/Law-of-Wit_Stay-With-Me.zip');return false;"><img src="/images/EP_StayWithMe.png" width="200px"></img></a>
+						<br>Cliquez pour acheter l'EP (prix libre)</th>
+					</tr>
+				</table>
+				</div>
+				<!--<table>
+					<h2>Notre dernier EP "Stay With Me" :</h2>
+					<tr>
+						<th>><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129164426%3Fsecret_token%3Ds-mzaXl&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe></th>
+						<th>><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129161298%3Fsecret_token%3Ds-Ja50F&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe></th>
+					</tr>
+					<tr>
+						<th><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129164240%3Fsecret_token%3Ds-8m3uF&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe><br></th>
+						<th><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129159236%3Fsecret_token%3Ds-T9yvi&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe><br></th>
+					</tr>
+					<tr>
+						<th><<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129164207%3Fsecret_token%3Ds-ng5YX&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe><br></th>
+						<th><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129157811%3Fsecret_token%3Ds-ONxsV&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe></th>
+					</tr>
+				</table>-->
+			
+				<h2>Notre premier EP "Law of Wit" :</h2>
+				<div class="soundcloud2">
+				<table>
+					<tr>
+						<th colspan="2">
+							<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/19853246&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe><br>
+						</th>
+					</tr>
+					<tr>
+						<th>Télécharger<br><a href="EP/Law-of-Wit_Law-of-Wit.zip" target="_blank"><img src="images/logo4BIG3pt.png" width="200px"></img></a><br>Cliquez pour télécharger gratuitement l'EP (format mp3)</th>
+						<th>Contribuer<br>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=4LA9C7F94NTZ2&lc=FR&item_name=Law%20of%20Wit&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted" target="_blank" onclick="ouvreFenetre('https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=4LA9C7F94NTZ2&lc=FR&item_name=Law%20of%20Wit&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted','EP/Law-of-Wit_Law-of-Wit.zip');return false;"><img src="/images/logo4BIG3pt.png" width="200px"></img></a>
+						<br>Cliquez pour acheter l'EP (prix libre)</th>
+					</tr>
+				</table>
+				</div>
+				<!--<table class="son">
+					<tr>
+						<th colspan="2"><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F91338033"></iframe></th>
+					</tr>
+					<tr>
+						<th><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F80990734"></iframe><br></th>
+						<th><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F80989808"></iframe><br></th>
+					</tr>
+					<tr>
+						<th><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F80992965"></iframe><br></th>
+						<th><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F80991983"></iframe></th>
+					</tr>
+				</table>-->
+			</div>
+
+		</div>
+
+		<div id="wrapper" class="photos">
+				<center>
+				<table>
+				   <thead>
+				      <tr>
+					 <th align="center"><iframe width="100%" height="500" src="http://www.photonautes-associes.fr/ob/diaporamas/diapo-flickr.php?albumid=72157639628439773" frameborder="0"></iframe></th>
+					 <th align="center"><iframe width="100%" height="500" src="http://www.photonautes-associes.fr/ob/diaporamas/diapo-flickr.php?albumid=72157639732182045" frameborder="0"></iframe></th>
+				      </tr>
+				   </thead>
+				</table>
+				</center>
+			
+		</div>
+	<!--72157639628439773-->
+		<hr class="fade-in five">	
+		<!--Partie contact (texte ou image avec texte)-->
+		<div id="contact" class="fade-in five">
+			<a name=contact><h2>CONTACT</h2></td>
+				<img src="images/contact.png"><br>
+		</div>
+		
+		
+		<!--Petit footer pour faire des pieds-->
+		<footer>
+			<hr class="fade-in five">
+			<p><center>© Law of Wit, 2014.</center></p>
+		</footer>
+
+	</div>
+
+</body>
+
+</html>

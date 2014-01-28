@@ -1,0 +1,509 @@
+/*Trucs généraux*/
+/*Bubbler One
+Marcellus SC
+Gudea
+News Cycle
+*/
+body {
+font-family: 'Roboto Condensed';
+}
+
+h1, h2, font {
+	width:auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+table {
+	width:100%;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+table.son {
+	width:auto;
+	margin: 0 auto;
+	text-align:center;
+}
+
+
+/*b{
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    color:black;
+}
+
+b:hover{
+    color:grey;
+    text-shadow: black 0 0 100px;
+
+    
+}*/
+
+.center {
+	width: auto;
+	margin: 0 auto;
+}
+/*-----------------------------*/
+
+/*News & concerts*/
+
+.news {
+border: 2px solid #C0C0C0;
+color: #000000;
+padding : 1% 4%;
+margin: 0px 0;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-moz-box-shadow: 3px 3px 6px 0 #A9A9A9;
+-webkit-box-shadow: 3px 3px 6px #A9A9A9;
+box-shadow: 3px 3px 6px 0 #A9A9A9;
+overflow:hidden;
+text-align:justify;
+}
+
+.photos {
+border: 0px solid #000000;
+color: #000000;
+padding: 0 1% 1% 10%;
+margin: 0px 0;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+-moz-box-shadow: 0px 0px 0px 0 #000000;
+-webkit-box-shadow: 0px 0px 0px #000000;
+box-shadow: 0px 0px 0px 0 #000000;
+overflow:hidden;
+}
+
+ul.square {
+list-style-type:square;
+}
+
+p.left {
+text-align:left;
+}
+
+p.justify {
+text-align:justify;
+}
+
+img.right {
+float:right;
+display:block;
+margin-left:auto;
+margin-right:auto;
+max-width: 11%;
+height: auto;
+width: auto\9; /* ie8 */
+}
+
+/*-----------------------------*/
+
+
+
+/*Petit effet de sélection sympa*/
+::selection {
+background:#000000;
+color:#fff;
+}
+
+::-moz-selection {
+background:#000000;
+color:#fff;
+}
+
+::-webkit-selection {
+background:#000000;
+color:#fff;
+}
+/*-----------------------------*/
+
+/*Style des hr*/
+		
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+/*-----------------------------*/
+
+/*Divan*/
+#wrapper {
+	width: 85%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 20px;;
+	margin-bottom:auto;
+}
+
+#wrapper2 {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+#concertsnews {
+	display:inline-block;
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+	text-align:justify;
+}
+
+#head1 {
+	text-align:center;
+	font-family:'Marcellus SC';
+	font-size:80px;
+}
+
+#head2 {
+	font-family:'Trade Winds';
+	font-size:18px;
+}
+
+header {
+	width: 85%;
+	margin: 0 auto;
+}
+
+#social {
+	width: 100%;
+	margin: 0 auto;
+	float: right;
+	text-align:right;
+}
+
+#images {
+	width: 85%;
+	display: inline-block;
+	margin-left: 300px;
+	padding-left: 300px;
+}
+
+/*#socialmenu{
+	overflow:hidden;
+	width: 40%;
+	float: right;
+	text-align:center;
+}*/
+
+
+#socialmenu{
+	overflow:hidden;
+	width:420px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#bio {
+	width: 40%;
+	float: left;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+}
+
+#contact {
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.soundcloud2 {
+	display: inline-block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	text-align:center;
+	border:1px solid grey;
+	border-radius: 5px;
+}
+
+#menu {
+	width:439px;
+	height:50px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size:16px;
+}
+
+#ombrebleue {
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 12px rgba(51,204,255,0.2);
+    }
+    50% {
+        -webkit-box-shadow: 0 0 12px rgba(51,204,255,0.9);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 12px rgba(51,204,255,0.2);
+    }
+}
+ 
+/* Ici le code pour appliquer une lueur externe */
+/* 0px de décalage en x, 0px de décalage en y, 12px de flou et la valeur en RGBA soit RedGreenBlueAlpha donc le 0.5 pour 50% d'opacité */
+#ombrebleue a:hover img {
+    -webkit-box-shadow: 0px 0px 12px rgba(51,204,255,0.5);
+    -moz-box-shadow: 0px 0px 12px rgba(51,204,255,0.5);
+    box-shadow: 0px 0px 12px rgba(51,204,255,0.5);
+    -webkit-animation: pulse 1.5s infinite ease-in-out; /* Ici on utilise l'animation référencée plus haut */
+}
+
+footer {
+	font-size: 12px
+}
+/*-----------------------------*/
+
+/*Logo stretchy*/
+img.scale {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 35%;
+    height: auto;
+	width: auto\9; /* ie8 */
+}
+/*-----------------------------*/
+
+
+/*Liens marrants*/
+nav {   
+    margin-bottom: 10px;
+}  
+nav ul {  
+    list-style: none;  
+    font-size: 14px;
+}  
+nav ul li {  
+    display: inline;  
+}  
+nav ul li a {  
+    display: block;  
+    float: left;  
+    padding: 3px 6px;  
+    color: #000000;  
+    text-decoration: none;  
+    font-weight: bold;
+    font-family: 'Marcellus SC';
+    font-size: 16px;
+}  
+nav ul li a:hover {  
+    background: #F98717;  
+    color: #000000;  
+    -webkit-border-radius: 3px;  
+    -moz-border-radius: 3px;  
+    border-radius: 3px;  
+    padding: 3px 6px;  
+    margin: 0;  
+    text-decoration: none;  
+}  
+/*-----------------------------*/
+
+/*Minou social*/
+	/*Trucs génériques*/
+.social {
+	list-style:none;
+}
+#socialmenu ul {
+	padding:0;
+}
+.social li {
+	display:inline;
+	float:left;
+}
+.social li a { 
+	display:block;
+	width:70px;
+	height:70px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+.social li a strong { 
+	position:absolute;
+	left:20px;
+	top:-1px;
+	color:#FFFFFF;
+	text-shadow:1px 1px 0 rgba(0, 0, 0, 0.75);
+	background-color:rgba(0, 0, 0, 0.7);
+	border-radius:3px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+	/*Le menu itself*/
+li.facebook { background-image:url("images/facebook.png"); }
+li.twitter { background-image:url("images/twitter.png"); }
+li.google { background-image:url("images/google.png"); }
+li.soundcloud { background-image:url("images/soundcloud.png"); }
+li.youtube { background-image:url("images/youtube.png"); }
+li.myspace { background-image:url("images/myspace.png"); }
+/*li.facebook { background-image:url("http://cluster015.ovh.net/net2ftp/index.php?ftpserver=ftp.cluster015.ovh.net&ftpserverport=21&username=lawofwit&language=fr&skin=blue&ftpmode=automatic&passivemode=no&sslconnect=no&viewmode=list&sort=&sortorder=&state=view&state2=image&directory=%2Fwww%2Fimages&entry=facebook.png"); }
+li.twitter { background-image:url("http://cluster015.ovh.net/net2ftp/index.php?ftpserver=ftp.cluster015.ovh.net&ftpserverport=21&username=lawofwit&language=fr&skin=blue&ftpmode=automatic&passivemode=no&sslconnect=no&viewmode=list&sort=&sortorder=&state=view&state2=image&directory=%2Fwww%2Fimages&entry=twitter.png"); }
+li.google { background-image:url("http://cluster015.ovh.net/net2ftp/index.php?ftpserver=ftp.cluster015.ovh.net&ftpserverport=21&username=lawofwit&language=fr&skin=blue&ftpmode=automatic&passivemode=no&sslconnect=no&viewmode=list&sort=&sortorder=&state=view&state2=image&directory=%2Fwww%2Fimages&entry=google.png"); }
+li.soundcloud { background-image:url("http://cluster015.ovh.net/net2ftp/index.php?ftpserver=ftp.cluster015.ovh.net&ftpserverport=21&username=lawofwit&language=fr&skin=blue&ftpmode=automatic&passivemode=no&sslconnect=no&viewmode=list&sort=&sortorder=&state=view&state2=image&directory=%2Fwww%2Fimages&entry=soundcloud.png"); }
+li.youtube { background-image:url("http://cluster015.ovh.net/net2ftp/index.php?ftpserver=ftp.cluster015.ovh.net&ftpserverport=21&username=lawofwit&language=fr&skin=blue&ftpmode=automatic&passivemode=no&sslconnect=no&viewmode=list&sort=&sortorder=&state=view&state2=image&directory=%2Fwww%2Fimages&entry=youtube.png"); }*/
+
+	/*Le transition effect itself*/
+.social:hover li { 
+	opacity:0.2;
+}
+ 
+.social li {
+	transition-property: opacity;
+	transition-duration: 500ms;
+}
+.social li a strong {
+	opacity:0;
+	transition-property: opacity, top;
+	transition-duration: 300ms;
+}
+ 
+.social li:hover {
+	opacity:1;
+}
+.social li:hover a strong { 
+	opacity:1;
+	top:-10px;
+}
+/*-----------------------------*/
+
+/*Le Back to Top*/
+#retour-haut {
+	position: fixed;
+	bottom: 30px;
+	margin-left: -150px;
+}
+
+#retour-haut a {
+	width: 108px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#retour-haut a:hover {
+	color: #000;
+}
+
+	/* icône */
+#retour-haut span {
+	width: 108px;
+	height: 108px;
+	display: block;
+	margin-bottom: 7px;
+	background: #ddd url(images/retour.png) no-repeat center center;
+
+	/* les coins font des ronds */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#retour-haut a:hover span {
+	background-color: #777;
+}
+/*-----------------------------*/
+
+/*Joli effet fadine trop stylé au chargement*/
+	/* Fadine de transparent à opaque keyframe */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
+	/* Départ transparent */
+    opacity:0;  
+	 /* appel au fadine*/
+    -webkit-animation:fadeIn ease-in 1; 
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+	
+	/*on est sûr que le fadine bouge pu*/
+    -webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+ 
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+ 
+	/*Toutes les classes de fadine pour que les blocs se chargent successivement*/
+ .fade-in.zero {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+ 
+.fade-in.one {
+-webkit-animation-delay: 1.2s;
+-moz-animation-delay: 1.2s;
+animation-delay: 1.2s;
+}
+
+.fade-in.onetwo {
+-webkit-animation-delay: 1.4s;
+-moz-animation-delay: 1.4s;
+animation-delay: 1.4s;
+}
+ 
+.fade-in.two {
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay:1.6s;
+animation-delay: 1.6s;
+}
+ 
+.fade-in.three {
+-webkit-animation-delay: 2s;
+-moz-animation-delay: 2s;
+animation-delay: 2s;
+}
+
+.fade-in.four {
+-webkit-animation-delay: 2.4s;
+-moz-animation-delay: 2.4s;
+animation-delay: 2.4s;
+}
+
+.fade-in.five {
+-webkit-animation-delay: 2.8s;
+-moz-animation-delay: 2.8s;
+animation-delay: 2.8s;
+}
+/*-----------------------------*/
